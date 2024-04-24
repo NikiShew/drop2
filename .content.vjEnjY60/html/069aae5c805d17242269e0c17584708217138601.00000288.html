@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Каталог наших товаров - ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ</title>
+  <meta name="description" content="Каталог товаров в 'Электроника для Животных'. Мы предлагаем широкий выбор электроники, аксессуаров, средств ухода и других товаров для домашних животных. Найдите все необходимое для своих питомцев у нас." >
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="Каталог товаров">
+  <meta name="robots" content="index, follow">
+  <link href="http://zooelectronic.com.ua/products?size=50" rel="canonical">
+
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/favicon1.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/css/main.css" rel="stylesheet">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.selectbox/jquery.selectbox.css" rel="stylesheet">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.anythingslider/jquery.anythingslider.css" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//sellbe.com/js/core.js"></script>
+  <script src="https://cdn6.sellbe.com/p64/s-64403/template/123056/js/main.js"></script>
+  <script src="//sellbe.com/js/localization/ru.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+  <script src="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.selectbox/jquery.selectbox.min.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <script src="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.anythingslider/jquery.anythingslider.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="h-top">
+      <div class="cntr clr"></div>
+    </div>
+    <div class="h-middle">
+      <div class="cntr clr">
+        <div class="logo">
+          <a href="/"><img src="https://cdn6.sellbe.com/p64/s-64403/logo/364433.jpg" alt="ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ" title="ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ"></a>
+        </div>
+        <div class="h-contact">
+          <div>
+            Мобильный: (067) 727 32 41
+          </div>
+          <div>
+            Мобильный: (095) 760 32 41
+          </div>
+          <div>
+            Email: <a href="mailto:zooelectronic@ukr.net">zooelectronic@ukr.net</a>
+          </div>
+        </div>
+        <div class="h-right clr">
+          <div class="log-blk">
+            <a class="login-a">Вход</a> <a href="/register">Регистрация</a>
+          </div>
+          <div class="clr"></div>
+          <div class="cart-info">
+            <div class="cart-ico ico"></div>
+            <div class="txt full-cart hide-txt">
+              В корзине <a href="/cart">товаров: <span class="amount">0</span></a>
+            </div>
+            <div class="txt empty-cart">
+              Корзина пуста
+            </div>
+            <div class="clr"></div>
+            <div class="wrap">
+              <script id="cart-i-tmpl" type="text/x-jquery-tmpl">
+                <li class="prod-cntr" data-prod-id="${product.id}">
+                    <div class="amnt">${quantity}</div>
+                    <div class="descr clr">
+                        <div class="ttl"><a href="${product.url}">${product.title}</a></div>
+
+                        {{if complectation != null}}
+                            <div class="complect-blk" data-id="${complectation.id}">
+                                ({{each(i,property) complectation.properties }}{{if i != 0}}; {{/if}}${property.property_name}: ${property.value_name}{{/each}})
+                            </div>
+                        {{/if}}
+
+                        {{if selected_properties.length > 0}}
+                            <div class="props prod-${product.id}-props">
+                                {{each(i, property) selected_properties }}
+                                    <div data-prop-id="${property.property_id}" data-val-id="${property.value_id}">
+                                        ${property.property_name}: ${property.value_name}
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{/if}}
+                        <div class="price">${total_price}</div>
+                        <span class="del-ico ico"></span>
+                    </div>
+                </li>
+              </script>
+              <ul class="lst"></ul>
+              <div class="btn-wrap clr">
+                <a class="btn" href="/purchase">Оформить заказ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="menu-blk">
+      <div class="cntr clr">
+        <ul class="menu">
+          <li>
+            <a href="/"><span class="ico"></span></a>
+          </li>
+          <li class="cur">
+            <a href="/products">Каталог товаров</a>
+          </li>
+          <li>
+            <a href="/dostavka-i-oplata">Доставка и оплата</a>
+          </li>
+          <li>
+            <a href="/garantiya">Гарантия</a>
+          </li>
+          <li>
+            <a href="/publications">Публикации</a>
+          </li>
+          <li>
+            <a href="/contacts">Контакты</a>
+          </li>
+          <li>
+            <a href="/feedbacks">Отзывы</a>
+          </li>
+        </ul>
+        <div class="srch-blk clr">
+          <input class="srch-inp" type="text" placeholder="Поиск" data-url="/search"> <a class="srch-btn ico"></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="cnt-wrap">
+    <div class="cntr clr">
+      <div class="h-banner"></div>
+      <aside class="l-col">
+        <div class="blk">
+          <div class="blk-ttl">
+            Категории
+          </div>
+          <div class="blk-body">
+            <ul class="categ-lst">
+              <li>
+                <a href="/elektronnyie-oshejniki/c1">Электронные ошейники</a>
+              </li>
+              <li>
+                <a href="/oshejniki-biperyi/c2">Ошейники - биперы</a>
+              </li>
+              <li>
+                <a href="/antilai/c3">Антилаи</a>
+              </li>
+              <li>
+                <a href="/poiskovyie-sistemyi/c4">Поисковые системы</a>
+              </li>
+              <li>
+                <a href="/elektronnyie-izgorodi/c5">Электронные изгороди</a>
+              </li>
+              <li>
+                <a href="/svetyaschiesya-oshejniki/c6">Светящиеся ошейники</a>
+              </li>
+              <li>
+                <a href="/elektronnyie-kovriki/c7">Электронные коврики</a>
+              </li>
+              <li>
+                <a href="/furminatoryi/c8">Фурминаторы</a>
+              </li>
+              <li>
+                <a href="/mashinki-dlya-strizhki/c9">Машинки для стрижки</a>
+              </li>
+              <li>
+                <a href="/dopolnitelnyie-oshejniki/c11">Дополнительные ошейники</a>
+              </li>
+              <li>
+                <a href="/aksecsuaryi/c10">Аксеcсуары</a>
+              </li>
+              <li>
+                <a href="/zapchasti-remont/c12">Запчасти, ремонт</a>
+              </li>
+              <li>
+                <a href="/arenda-elektrooshejnikov/c13">Аренда электроошейников</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="blk subscr-blk">
+          <div class="blk-ttl">
+            Подписка на новости
+          </div>
+          <div class="blk-body">
+            <form class="clr" id="subscr-frm" name="subscr-frm">
+              <div class="inp-blk clr">
+                <label for="subscr-mail">Email</label> <input type="email" id="subscr-mail" name="subscr-mail">
+              </div><input class="btn" type="button" value="Подписаться">
+            </form>
+          </div>
+        </div>
+      </aside>
+      <div class="cnt">
+        <div class="crumbs">
+          <a href="/">Главная</a> <span class="arr">&gt;</span> <span>Каталог товаров</span>
+        </div>
+        <h1>Каталог товаров</h1>
+        <div class="txt-blk"></div>
+        <div class="txt-blk"></div>
+        <div class="txt-blk"></div>
+        <div class="list-nav clr">
+          <div class="sorter clr">
+            <span class="ttl">Сортировать по:</span>
+            <div class="vars">
+              <a class="cur clr"><span class="ttl">рейтингу <span class="arr ico"></span></span></a>
+              <div class="clr"></div>
+              <ul class="lst">
+                <li>
+                  <a href="/products?size=50&sort=name">названию</a>
+                </li>
+                <li>
+                  <a href="/products?size=50&sort=cheap">цене (с меньшей) <span>&darr;</span></a>
+                </li>
+                <li>
+                  <a href="/products?size=50&sort=expensive">цене (с большей) <span>&uarr;</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="sizer pager">
+            <li class="ttl"><span>Выводить:</span></li>
+            <li>
+              <a href="/products?size=10">10</a>
+            </li>
+            <li>
+              <a href="/products?size=30">30</a>
+            </li>
+            <li class="cur"><span>50</span></li>
+            <li>
+              <a href="/products?size=100">100</a>
+            </li>
+          </ul>
+        </div>
+        <div class="prod-lst-full">
+          <div class="product item clr">
+            <div class="img">
+              <a href="/20-rasprodazha-elektronnyij-oshejnik-petainer-ipets-619/p5"><img src="https://cdn6.sellbe.com/p64/s-64403/product/5/s290880.jpg" alt="-20% РАСПРОДАЖА! Электронный ошейник Petainer iPETs 619"> <span class="prod-lbls"><span class="prom-blk">Акция!</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/20-rasprodazha-elektronnyij-oshejnik-petainer-ipets-619/p5">-20% РАСПРОДАЖА! Электронный ошейник Petainer iPETs 619</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 550 грн.
+                </div>
+                <div class="price-old">
+                  1 930 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="5">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektrooshejnik-s-biperom-petainer-pet910-dlya-ohotnichih-sobak/p1"><img src="https://cdn6.sellbe.com/p64/s-64403/product/1/s400753.jpg" alt="Электроошейник с бипером Petainer PET910 (для охотничьих собак) "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektrooshejnik-s-biperom-petainer-pet910-dlya-ohotnichih-sobak/p1">Электроошейник с бипером Petainer PET910 (для охотничьих собак)</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  2 630 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="1">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-petainer-pet916/p2"><img src="https://cdn6.sellbe.com/p64/s-64403/product/2/s868328.jpg" alt="Электронный ошейник Petainer PET916"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-petainer-pet916/p2">Электронный ошейник Petainer PET916</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 750 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="2">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-petainer-ipets-618/p9"><img src="https://cdn6.sellbe.com/p64/s-64403/product/9/s268996.jpg" alt="Электронный ошейник Petainer iPETs 618"> <span class="prod-lbls"><span class="lbl label_3">Топ продаж</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-petainer-ipets-618/p9">Электронный ошейник Petainer iPETs 618</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  2 490 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="9">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektrooshejnik-dlya-dressirovki-petainer-998d/p4"><img src="https://cdn6.sellbe.com/p64/s-64403/product/4/s253554.jpg" alt="Электроошейник для дрессировки Petainer 998D "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektrooshejnik-dlya-dressirovki-petainer-998d/p4">Электроошейник для дрессировки Petainer 998D</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  840 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="4">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-petcomer/p60"><img src="https://cdn6.sellbe.com/p64/s-64403/product/60/s617207.jpg" alt="Электронный ошейник PETCOMER"> <span class="prod-lbls"><span class="lbl label_1">Новинка</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-petcomer/p60">Электронный ошейник PETCOMER</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 100 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="60">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-petainer-998dr-new/p12"><img src="https://cdn6.sellbe.com/p64/s-64403/product/12/s488393.jpg" alt="Электронный ошейник Petainer 998DR NEW"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-petainer-998dr-new/p12">Электронный ошейник Petainer 998DR NEW</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 330 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="12">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/svetyaschijsya-v-temnote-poliuretanovyij-oshejnik-remeshok-25mm/p61"><img src="https://cdn6.sellbe.com/p64/s-64403/product/61/s904038.jpg" alt="Светящийся в темноте полиуретановый ошейник - ремешок 25мм"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/svetyaschijsya-v-temnote-poliuretanovyij-oshejnik-remeshok-25mm/p61">Светящийся в темноте полиуретановый ошейник - ремешок 25мм</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  230 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="61">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/poliuretanovyij-oshejnik-remeshok-oranzhevyij-25mm/p16"><img src="https://cdn6.sellbe.com/p64/s-64403/product/16/s327728.jpg" alt="Полиуретановый ошейник - ремешок оранжевый 25мм"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/poliuretanovyij-oshejnik-remeshok-oranzhevyij-25mm/p16">Полиуретановый ошейник - ремешок оранжевый 25мм</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  200 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="16">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-petainer-ipets-617/p10"><img src="https://cdn6.sellbe.com/p64/s-64403/product/10/s747488.jpg" alt="Электронный ошейник Petainer iPETs 617 "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-petainer-ipets-617/p10">Электронный ошейник Petainer iPETs 617</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  2 560 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="10">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/poliuretanovyij-oshejnik-remeshok-zhyoltyij-25mm/p18"><img src="https://cdn6.sellbe.com/p64/s-64403/product/18/s626469.jpg" alt="Полиуретановый ошейник - ремешок жёлтый 25мм"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/poliuretanovyij-oshejnik-remeshok-zhyoltyij-25mm/p18">Полиуретановый ошейник - ремешок жёлтый 25мм</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  200 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="18">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/poliuretanovyij-oshejnik-remeshok-zelyonyij-25mm/p17"><img src="https://cdn6.sellbe.com/p64/s-64403/product/17/s242642.jpg" alt="Полиуретановый ошейник - ремешок зелёный 25мм"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/poliuretanovyij-oshejnik-remeshok-zelyonyij-25mm/p17">Полиуретановый ошейник - ремешок зелёный 25мм</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  200 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="17">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/mashinka-dlya-strizhki-zhivotnyih-sobak-koshek-i-dr-aobo-vs888-55w/p11"><img src="https://cdn6.sellbe.com/p64/s-64403/product/11/s610313.jpg" alt="Машинка для стрижки животных (собак , кошек и др.) AOBO - VS888 55W "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/mashinka-dlya-strizhki-zhivotnyih-sobak-koshek-i-dr-aobo-vs888-55w/p11">Машинка для стрижки животных (собак , кошек и др.) AOBO - VS888 55W</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 260 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="11">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/besprovodnaya-perezaryazhaemaya-mashinka-dlya-strizhki-aobo-vs999-20w/p19"><img src="https://cdn6.sellbe.com/p64/s-64403/product/19/s626698.jpg" alt="Беспроводная (перезаряжаемая ) машинка для стрижки AOBO - VS999 20W "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/besprovodnaya-perezaryazhaemaya-mashinka-dlya-strizhki-aobo-vs999-20w/p19">Беспроводная (перезаряжаемая ) машинка для стрижки AOBO - VS999 20W</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 420 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="19">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/nozhevoj-blok-dlya-mashinki-aobo-vs888-i-vs999/p25"><img src="https://cdn6.sellbe.com/p64/s-64403/product/25/s128402.jpg" alt="Ножевой блок для машинки AOBO - VS888 и VS999"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/nozhevoj-blok-dlya-mashinki-aobo-vs888-i-vs999/p25">Ножевой блок для машинки AOBO - VS888 и VS999</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  380 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="25">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/bandana-dlya-ohotnichih-sobak/p62"><img src="https://cdn6.sellbe.com/p64/s-64403/product/62/s776233.jpg" alt="Бандана для охотничьих собак"> <span class="prod-lbls"><span class="lbl label_1">Новинка</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/bandana-dlya-ohotnichih-sobak/p62">Бандана для охотничьих собак</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  170 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="62">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-p-183/p59"><img src="https://cdn6.sellbe.com/p64/s-64403/product/59/s636462.jpg" alt="Электронный ошейник P-183"> <span class="prod-lbls"><span class="lbl label_1">Новинка</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-p-183/p59">Электронный ошейник P-183</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 880 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="59">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-petainer-ipets-616/p58"><img src="https://cdn6.sellbe.com/p64/s-64403/product/58/s516868.jpg" alt="Электронный ошейник Petainer iPETs 616"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-petainer-ipets-616/p58">Электронный ошейник Petainer iPETs 616</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  2 680 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="58">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/20-rasprodazha-elektronnyij-oshejnik-patpet-p-610/p57"><img src="https://cdn6.sellbe.com/p64/s-64403/product/57/s581162.jpg" alt="-20% РАСПРОДАЖА! Электронный ошейник PATPET P-610 "> <span class="prod-lbls"><span class="prom-blk">Акция!</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/20-rasprodazha-elektronnyij-oshejnik-patpet-p-610/p57">-20% РАСПРОДАЖА! Электронный ошейник PATPET P-610</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 680 грн.
+                </div>
+                <div class="price-old">
+                  2 100 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="57">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/nabor-remeshkov-dlya-schenkov-12sht/p56"><img src="https://cdn6.sellbe.com/p64/s-64403/product/56/s417583.jpg" alt="Набор ремешков для щенков 12шт."></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/nabor-remeshkov-dlya-schenkov-12sht/p56">Набор ремешков для щенков 12шт.</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  170 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="56">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/zhilet-dlya-ohotnichih-sobak-razmer-l/p55"><img src="https://cdn6.sellbe.com/p64/s-64403/product/55/s627933.jpg" alt="Жилет для охотничьих собак ( размер L )"> <span class="prod-lbls"><span class="lbl label_1">Новинка</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/zhilet-dlya-ohotnichih-sobak-razmer-l/p55">Жилет для охотничьих собак ( размер L )</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  220 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="55">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/zhilet-dlya-ohotnichih-sobak-razmer-m/p54"><img src="https://cdn6.sellbe.com/p64/s-64403/product/54/s627933.jpg" alt="Жилет для охотничьих собак ( размер M )"> <span class="prod-lbls"><span class="lbl label_1">Новинка</span> <span class="lbl label_3">Топ продаж</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/zhilet-dlya-ohotnichih-sobak-razmer-m/p54">Жилет для охотничьих собак ( размер M )</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  200 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="54">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/otpugivayuschij-kovrik-scat-mat/p53"><img src="https://cdn6.sellbe.com/p64/s-64403/product/53/s565175.jpg" alt="Отпугивающий коврик Scat Mat"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/otpugivayuschij-kovrik-scat-mat/p53">Отпугивающий коврик Scat Mat</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Под заказ
+              </div>
+              <div class="prices">
+                <div class="price">
+                  0 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="53">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/bu-elektronnyij-oshejnik-petsafe-pdt00-12470-dlya-2-h-sobak/p52"><img src="https://cdn6.sellbe.com/p64/s-64403/product/52/s824789.jpg" alt="Б/у Электронный ошейник PetSafe - PDT00-12470 (для 2-х собак)"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/bu-elektronnyij-oshejnik-petsafe-pdt00-12470-dlya-2-h-sobak/p52">Б/у Электронный ошейник PetSafe - PDT00-12470 (для 2-х собак)</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/ssha/b2">США</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  2 600 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="52">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/antilaj-petainer-pet852/p50"><img src="https://cdn6.sellbe.com/p64/s-64403/product/50/s708867.jpg" alt="Антилай Petainer PET852"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/antilaj-petainer-pet852/p50">Антилай Petainer PET852</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  360 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="50">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-zabor-dlya-sobak-pet-manager-dlya-pomeschenij/p49"><img src="https://cdn6.sellbe.com/p64/s-64403/product/49/s468127.jpg" alt="Электронный забор для собак PET MANAGER (для помещений)"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-zabor-dlya-sobak-pet-manager-dlya-pomeschenij/p49">Электронный забор для собак PET MANAGER (для помещений)</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Под заказ
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 300 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="49">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/furminator-serii-classic-malenkij/p48"><img src="https://cdn6.sellbe.com/p64/s-64403/product/48/s271844.jpg" alt="Фурминатор серии Classic - маленький"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/furminator-serii-classic-malenkij/p48">Фурминатор серии Classic - маленький</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  170 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="48">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/furminator-serii-classic-srednij/p47"><img src="https://cdn6.sellbe.com/p64/s-64403/product/47/s667189.jpg" alt="Фурминатор серии Classic - средний"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/furminator-serii-classic-srednij/p47">Фурминатор серии Classic - средний</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  200 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="47">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/furminator-serii-classic-bolshoj/p46"><img src="https://cdn6.sellbe.com/p64/s-64403/product/46/s124570.jpg" alt="Фурминатор серии Classic - большой"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/furminator-serii-classic-bolshoj/p46">Фурминатор серии Classic - большой</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  220 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="46">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/akkumulyator-dlya-elektronnyih-oshejnikov/p45"><img src="https://cdn6.sellbe.com/p64/s-64403/product/45/s109148.jpg" alt="Аккумулятор для электронных ошейников"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/akkumulyator-dlya-elektronnyih-oshejnikov/p45">Аккумулятор для электронных ошейников</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  100 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="45">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/komplekt-elektrodov/p44"><img src="https://cdn6.sellbe.com/p64/s-64403/product/44/s214420.jpg" alt="Комплект электродов"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/komplekt-elektrodov/p44">Комплект электродов</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  50 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="44">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/zhilet-dlya-ohotnichih-sobak-razmer-s/p43"><img src="https://cdn6.sellbe.com/p64/s-64403/product/43/s627933.jpg" alt="Жилет для охотничьих собак ( размер S )"> <span class="prod-lbls"><span class="lbl label_1">Новинка</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/zhilet-dlya-ohotnichih-sobak-razmer-s/p43">Жилет для охотничьих собак ( размер S )</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  170 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="43">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/antena-dlya-pulta/p42"><img src="https://cdn6.sellbe.com/p64/s-64403/product/42/s794510.jpg" alt="Антена для пульта"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/antena-dlya-pulta/p42">Антена для пульта</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  170 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="42">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/zaryadnoe-ustrojstvo-dlya-ret910/p41"><img src="https://cdn6.sellbe.com/p64/s-64403/product/41/s256713.jpg" alt="Зарядное устройство для РЕТ910"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/zaryadnoe-ustrojstvo-dlya-ret910/p41">Зарядное устройство для РЕТ910</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  140 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="41">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-izgorodi-ht-023/p39"><img src="https://cdn6.sellbe.com/p64/s-64403/product/39/s470539.jpg" alt="Дополнительный ошейник для изгороди HT-023"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-izgorodi-ht-023/p39">Дополнительный ошейник для изгороди HT-023</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  520 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="39">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-izgorodi-petainer-pet-803/p38"><img src="https://cdn6.sellbe.com/p64/s-64403/product/38/s996483.jpg" alt="Дополнительный ошейник для изгороди Petainer PET 803"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-izgorodi-petainer-pet-803/p38">Дополнительный ошейник для изгороди Petainer PET 803</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  850 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="38">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-ipets-617/p37"><img src="https://cdn6.sellbe.com/p64/s-64403/product/37/s597868.jpg" alt="Дополнительный ошейник для Petainer iPETs 617"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-ipets-617/p37">Дополнительный ошейник для Petainer iPETs 617</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 250 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="37">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-ipets-618/p36"><img src="https://cdn6.sellbe.com/p64/s-64403/product/36/s782328.jpg" alt="Дополнительный ошейник для Petainer iPETs 618"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-ipets-618/p36">Дополнительный ошейник для Petainer iPETs 618</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 210 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="36">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-pet619/p35"><img src="https://cdn6.sellbe.com/p64/s-64403/product/35/s833205.jpg" alt="Дополнительный ошейник для Petainer PET619"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-pet619/p35">Дополнительный ошейник для Petainer PET619</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  840 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="35">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-pet910-biper/p34"><img src="https://cdn6.sellbe.com/p64/s-64403/product/34/s446248.jpg" alt="Дополнительный ошейник для Petainer PET910 (бипер)"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-pet910-biper/p34">Дополнительный ошейник для Petainer PET910 (бипер)</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  850 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="34">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-pet910/p33"><img src="https://cdn6.sellbe.com/p64/s-64403/product/33/s611000.jpg" alt="Дополнительный ошейник для Petainer PET910"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-pet910/p33">Дополнительный ошейник для Petainer PET910</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  850 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="33">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-998drnew-i-pet916/p32"><img src="https://cdn6.sellbe.com/p64/s-64403/product/32/s954848.jpg" alt="Дополнительный ошейник для Petainer 998DR_NEW и PET916"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-998drnew-i-pet916/p32">Дополнительный ошейник для Petainer 998DR_NEW и PET916</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  720 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="32">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-998dr/p31"><img src="https://cdn6.sellbe.com/p64/s-64403/product/31/s496753.jpg" alt="Дополнительный ошейник для Petainer 998DR"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-998dr/p31">Дополнительный ошейник для Petainer 998DR</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  520 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="31">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/dopolnitelnyij-oshejnik-dlya-petainer-998d/p30"><img src="https://cdn6.sellbe.com/p64/s-64403/product/30/s693953.jpg" alt="Дополнительный ошейник для Petainer 998D"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/dopolnitelnyij-oshejnik-dlya-petainer-998d/p30">Дополнительный ошейник для Petainer 998D</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  480 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="30">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/svetodiodnyij-oshejnik-easydog-na-akkumulyatore/p29"><img src="https://cdn6.sellbe.com/p64/s-64403/product/29/s418365.jpg" alt="Светодиодный ошейник EASYDOG на аккумуляторе "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/svetodiodnyij-oshejnik-easydog-na-akkumulyatore/p29">Светодиодный ошейник EASYDOG на аккумуляторе</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  220 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="29">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-oshejnik-koolkani-kk-360r/p28"><img src="https://cdn6.sellbe.com/p64/s-64403/product/28/s625912.jpg" alt="Электронный ошейник KoolKani KK-360R"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-oshejnik-koolkani-kk-360r/p28">Электронный ошейник KoolKani KK-360R</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  0 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="28">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-gsm-oshejnik-gs-100/p27"><img src="https://cdn6.sellbe.com/p64/s-64403/product/27/s727534.jpg" alt="Электронный GSM ошейник GS-100"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-gsm-oshejnik-gs-100/p27">Электронный GSM ошейник GS-100</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 460 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="27">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/elektronnyij-zabor-dlya-sobak-x-800/p26"><img src="https://cdn6.sellbe.com/p64/s-64403/product/26/s347680.jpg" alt="Электронный забор для собак X-800"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/elektronnyij-zabor-dlya-sobak-x-800/p26">Электронный забор для собак X-800</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 880 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="26">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/svistok-ultrazvukovoj/p24"><img src="https://cdn6.sellbe.com/p64/s-64403/product/24/s749958.jpg" alt="Свисток ультразвуковой"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/svistok-ultrazvukovoj/p24">Свисток ультразвуковой</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  110 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="24">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/batarejka-4lr44-6v-gp-476a/p23"><img src="https://cdn6.sellbe.com/p64/s-64403/product/23/s900722.jpg" alt="Батарейка 4LR44 6V ( GP 476A ) "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/batarejka-4lr44-6v-gp-476a/p23">Батарейка 4LR44 6V ( GP 476A )</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Ожидается
+              </div>
+              <div class="prices">
+                <div class="price">
+                  20 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="23">
+            </div>
+          </div>
+        </div>
+        <div class="clr"></div>
+        <ul class="pager clr">
+          <li class="cur"><span>1</span></li>
+          <li>
+            <a href="/products/2?size=50">2</a>
+          </li>
+          <li>
+            <a href="/products/2?size=50">вперед »</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="cntr">
+      <div class="f-right clr">
+        <div class="sellbe-count"></div>
+        <div class="soc-links clr"></div>
+      </div>
+      <div class="f-left">
+        <div class="f-menu">
+          <a href="/contacts">Контакты</a> <span>|</span> <a href="/feedbacks">Отзывы</a> <span>|</span> <a href="/pricelist">Прайс-лист</a><span>|</span> <a href="http://zooelectronic.com.ua/sitemap.html">Sitemap</a> <span>|</span>
+        </div><span class="hide-txt" id="pattern">0 грн.</span>
+        <div class="tmpl-pop-cart tmpl-src" data-src="/json/module/external.popup-cart"></div>
+        <div class="tmpl-pop-login tmpl-src" data-src="/json/module/external.popup-login"></div>
+        <div class="tmpl-pop-remind tmpl-src" data-src="/json/module/external.popup-remind"></div>
+        <div class="tmpl-pop-inform tmpl-src" data-src="/json/module/external.popup-inform"></div>
+        <div class="tmpl-pop-markdown tmpl-src" data-src="/json/module/external.popup-markdown"></div>
+        <div class="copy">
+          Copyright &copy; 2016 - 2017, <a href="/">ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ</a>
+        </div>
+      </div>
+      <div class="clr"></div>
+      <div class="f-counts"></div>
+    </div>
+  </footer>
+</body>
+</html>

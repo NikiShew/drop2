@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Каталог товаров- ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="Каталог товаров">
+  <link href="/products" rel="canonical">
+  <link rel="canonical" href="/products">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/favicon1.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/css/main.css" rel="stylesheet">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.selectbox/jquery.selectbox.css" rel="stylesheet">
+  <link href="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.anythingslider/jquery.anythingslider.css" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//sellbe.com/js/core.js"></script>
+  <script src="https://cdn6.sellbe.com/p64/s-64403/template/123056/js/main.js"></script>
+  <script src="//sellbe.com/js/localization/ru.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+  <script src="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.selectbox/jquery.selectbox.min.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <script src="https://cdn6.sellbe.com/p64/s-64403/template/123056/plugins/jquery.anythingslider/jquery.anythingslider.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="h-top">
+      <div class="cntr clr"></div>
+    </div>
+    <div class="h-middle">
+      <div class="cntr clr">
+        <div class="logo">
+          <a href="/"><img src="https://cdn6.sellbe.com/p64/s-64403/logo/364433.jpg" alt="ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ" title="ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ"></a>
+        </div>
+        <div class="h-contact">
+          <div>
+            Мобильный: (067) 727 32 41
+          </div>
+          <div>
+            Мобильный: (095) 760 32 41
+          </div>
+          <div>
+            Email: <a href="mailto:zooelectronic@ukr.net">zooelectronic@ukr.net</a>
+          </div>
+        </div>
+        <div class="h-right clr">
+          <div class="log-blk">
+            <a class="login-a">Вход</a> <a href="/register">Регистрация</a>
+          </div>
+          <div class="clr"></div>
+          <div class="cart-info">
+            <div class="cart-ico ico"></div>
+            <div class="txt full-cart hide-txt">
+              В корзине <a href="/cart">товаров: <span class="amount">0</span></a>
+            </div>
+            <div class="txt empty-cart">
+              Корзина пуста
+            </div>
+            <div class="clr"></div>
+            <div class="wrap">
+              <script id="cart-i-tmpl" type="text/x-jquery-tmpl">
+                <li class="prod-cntr" data-prod-id="${product.id}">
+                    <div class="amnt">${quantity}</div>
+                    <div class="descr clr">
+                        <div class="ttl"><a href="${product.url}">${product.title}</a></div>
+
+                        {{if complectation != null}}
+                            <div class="complect-blk" data-id="${complectation.id}">
+                                ({{each(i,property) complectation.properties }}{{if i != 0}}; {{/if}}${property.property_name}: ${property.value_name}{{/each}})
+                            </div>
+                        {{/if}}
+
+                        {{if selected_properties.length > 0}}
+                            <div class="props prod-${product.id}-props">
+                                {{each(i, property) selected_properties }}
+                                    <div data-prop-id="${property.property_id}" data-val-id="${property.value_id}">
+                                        ${property.property_name}: ${property.value_name}
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{/if}}
+                        <div class="price">${total_price}</div>
+                        <span class="del-ico ico"></span>
+                    </div>
+                </li>
+              </script>
+              <ul class="lst"></ul>
+              <div class="btn-wrap clr">
+                <a class="btn" href="/purchase">Оформить заказ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="menu-blk">
+      <div class="cntr clr">
+        <ul class="menu">
+          <li>
+            <a href="/"><span class="ico"></span></a>
+          </li>
+          <li class="cur">
+            <a href="/products">Каталог товаров</a>
+          </li>
+          <li>
+            <a href="/dostavka-i-oplata">Доставка и оплата</a>
+          </li>
+          <li>
+            <a href="/garantiya">Гарантия</a>
+          </li>
+          <li>
+            <a href="/publications">Публикации</a>
+          </li>
+          <li>
+            <a href="/contacts">Контакты</a>
+          </li>
+          <li>
+            <a href="/feedbacks">Отзывы</a>
+          </li>
+        </ul>
+        <div class="srch-blk clr">
+          <input class="srch-inp" type="text" placeholder="Поиск" data-url="/search"> <a class="srch-btn ico"></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="cnt-wrap">
+    <div class="cntr clr">
+      <div class="h-banner"></div>
+      <aside class="l-col">
+        <div class="blk">
+          <div class="blk-ttl">
+            Категории
+          </div>
+          <div class="blk-body">
+            <ul class="categ-lst">
+              <li>
+                <a href="/elektronnyie-oshejniki/c1">Электронные ошейники</a>
+              </li>
+              <li>
+                <a href="/oshejniki-biperyi/c2">Ошейники - биперы</a>
+              </li>
+              <li>
+                <a href="/antilai/c3">Антилаи</a>
+              </li>
+              <li>
+                <a href="/poiskovyie-sistemyi/c4">Поисковые системы</a>
+              </li>
+              <li>
+                <a href="/elektronnyie-izgorodi/c5">Электронные изгороди</a>
+              </li>
+              <li>
+                <a href="/svetyaschiesya-oshejniki/c6">Светящиеся ошейники</a>
+              </li>
+              <li>
+                <a href="/elektronnyie-kovriki/c7">Электронные коврики</a>
+              </li>
+              <li>
+                <a href="/furminatoryi/c8">Фурминаторы</a>
+              </li>
+              <li>
+                <a href="/mashinki-dlya-strizhki/c9">Машинки для стрижки</a>
+              </li>
+              <li>
+                <a href="/dopolnitelnyie-oshejniki/c11">Дополнительные ошейники</a>
+              </li>
+              <li>
+                <a href="/aksecsuaryi/c10">Аксеcсуары</a>
+              </li>
+              <li>
+                <a href="/zapchasti-remont/c12">Запчасти, ремонт</a>
+              </li>
+              <li>
+                <a href="/arenda-elektrooshejnikov/c13">Аренда электроошейников</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="blk subscr-blk">
+          <div class="blk-ttl">
+            Подписка на новости
+          </div>
+          <div class="blk-body">
+            <form class="clr" id="subscr-frm" name="subscr-frm">
+              <div class="inp-blk clr">
+                <label for="subscr-mail">Email</label> <input type="email" id="subscr-mail" name="subscr-mail">
+              </div><input class="btn" type="button" value="Подписаться">
+            </form>
+          </div>
+        </div>
+      </aside>
+      <div class="cnt">
+        <div class="crumbs">
+          <a href="/">Главная</a> <span class="arr">&gt;</span> <span>Каталог товаров</span>
+        </div>
+        <h1>Каталог товаров</h1>
+        <div class="txt-blk"></div>
+        <div class="txt-blk"></div>
+        <div class="txt-blk"></div>
+        <div class="list-nav clr">
+          <div class="sorter clr">
+            <span class="ttl">Сортировать по:</span>
+            <div class="vars">
+              <a class="cur clr"><span class="ttl">названию <span class="arr ico"></span></span></a>
+              <div class="clr"></div>
+              <ul class="lst">
+                <li>
+                  <a href="/products?sort=default">рейтингу</a>
+                </li>
+                <li>
+                  <a href="/products?sort=cheap">цене (с меньшей) <span>&darr;</span></a>
+                </li>
+                <li>
+                  <a href="/products?sort=expensive">цене (с большей) <span>&uarr;</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="sizer pager">
+            <li class="ttl"><span>Выводить:</span></li>
+            <li class="cur"><span>10</span></li>
+            <li>
+              <a href="/products?sort=name&size=30">30</a>
+            </li>
+            <li>
+              <a href="/products?sort=name&size=50">50</a>
+            </li>
+            <li>
+              <a href="/products?sort=name&size=100">100</a>
+            </li>
+          </ul>
+        </div>
+        <div class="prod-lst-full">
+          <div class="product item clr">
+            <div class="img">
+              <a href="/20-rasprodazha-elektronnyij-oshejnik-patpet-p-610/p57"><img src="https://cdn6.sellbe.com/p64/s-64403/product/57/s581162.jpg" alt="-20% РАСПРОДАЖА! Электронный ошейник PATPET P-610 "> <span class="prod-lbls"><span class="prom-blk">Акция!</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/20-rasprodazha-elektronnyij-oshejnik-patpet-p-610/p57">-20% РАСПРОДАЖА! Электронный ошейник PATPET P-610</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 680 грн.
+                </div>
+                <div class="price-old">
+                  2 100 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="57">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/20-rasprodazha-elektronnyij-oshejnik-petainer-ipets-619/p5"><img src="https://cdn6.sellbe.com/p64/s-64403/product/5/s290880.jpg" alt="-20% РАСПРОДАЖА! Электронный ошейник Petainer iPETs 619"> <span class="prod-lbls"><span class="prom-blk">Акция!</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/20-rasprodazha-elektronnyij-oshejnik-petainer-ipets-619/p5">-20% РАСПРОДАЖА! Электронный ошейник Petainer iPETs 619</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 550 грн.
+                </div>
+                <div class="price-old">
+                  1 930 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="5">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/25-rasprodazha-treker-tk-star-tk-909-dlya-zhivotnyih/p21"><img src="https://cdn6.sellbe.com/p64/s-64403/product/21/s589625.jpg" alt="-25% РАСПРОДАЖА! Трекер TK STAR TK-909 для животных "> <span class="prod-lbls"><span class="prom-blk">Акция!</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/25-rasprodazha-treker-tk-star-tk-909-dlya-zhivotnyih/p21">-25% РАСПРОДАЖА! Трекер TK STAR TK-909 для животных</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  1 540 грн.
+                </div>
+                <div class="price-old">
+                  2 050 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="21">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/akkumulyator-dlya-elektronnyih-oshejnikov/p45"><img src="https://cdn6.sellbe.com/p64/s-64403/product/45/s109148.jpg" alt="Аккумулятор для электронных ошейников"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/akkumulyator-dlya-elektronnyih-oshejnikov/p45">Аккумулятор для электронных ошейников</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  100 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="45">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/antena-dlya-pulta/p42"><img src="https://cdn6.sellbe.com/p64/s-64403/product/42/s794510.jpg" alt="Антена для пульта"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/antena-dlya-pulta/p42">Антена для пульта</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  170 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="42">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/antilaj-petainer-pet850/p6"><img src="https://cdn6.sellbe.com/p64/s-64403/product/6/s650385.jpg" alt="Антилай Petainer PET850"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/antilaj-petainer-pet850/p6">Антилай Petainer PET850</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  980 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="6">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/antilaj-petainer-pet852/p50"><img src="https://cdn6.sellbe.com/p64/s-64403/product/50/s708867.jpg" alt="Антилай Petainer PET852"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/antilaj-petainer-pet852/p50">Антилай Petainer PET852</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Нет в наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  360 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="50">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/bu-elektronnyij-oshejnik-petsafe-pdt00-12470-dlya-2-h-sobak/p52"><img src="https://cdn6.sellbe.com/p64/s-64403/product/52/s824789.jpg" alt="Б/у Электронный ошейник PetSafe - PDT00-12470 (для 2-х собак)"></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/bu-elektronnyij-oshejnik-petsafe-pdt00-12470-dlya-2-h-sobak/p52">Б/у Электронный ошейник PetSafe - PDT00-12470 (для 2-х собак)</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/ssha/b2">США</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  2 600 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="52">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/bandana-dlya-ohotnichih-sobak/p62"><img src="https://cdn6.sellbe.com/p64/s-64403/product/62/s776233.jpg" alt="Бандана для охотничьих собак"> <span class="prod-lbls"><span class="lbl label_1">Новинка</span></span></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/bandana-dlya-ohotnichih-sobak/p62">Бандана для охотничьих собак</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability">
+                В наличии
+              </div>
+              <div class="prices">
+                <div class="price">
+                  170 грн.
+                </div>
+              </div><input class="cart-add btn" type="button" value="В корзину" data-prod-id="62">
+            </div>
+          </div>
+          <div class="product item clr">
+            <div class="img">
+              <a href="/batarejka-4lr44-6v-gp-476a/p23"><img src="https://cdn6.sellbe.com/p64/s-64403/product/23/s900722.jpg" alt="Батарейка 4LR44 6V ( GP 476A ) "></a>
+            </div>
+            <div class="descr clr">
+              <div class="ttl">
+                <a href="/batarejka-4lr44-6v-gp-476a/p23">Батарейка 4LR44 6V ( GP 476A )</a>
+              </div>
+              <div class="brand">
+                Производитель: <a href="/kitaj/b1">Китай</a>
+              </div>
+              <div class="availability not-stock">
+                Ожидается
+              </div>
+              <div class="prices">
+                <div class="price">
+                  20 грн.
+                </div>
+              </div><input class="inform-btn btn" type="button" value="Сообщить о наличии" data-prod-id="23">
+            </div>
+          </div>
+        </div>
+        <div class="clr"></div>
+        <ul class="pager clr">
+          <li class="cur"><span>1</span></li>
+          <li>
+            <a href="/products/2?sort=name">2</a>
+          </li>
+          <li><span>...</span></li>
+          <li>
+            <a href="/products/6?sort=name">6</a>
+          </li>
+          <li>
+            <a href="/products/2?sort=name">вперед »</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="cntr">
+      <div class="f-right clr">
+        <div class="sellbe-count"></div>
+        <div class="soc-links clr"></div>
+      </div>
+      <div class="f-left">
+        <div class="f-menu">
+          <a href="/contacts">Контакты</a> <span>|</span> <a href="/feedbacks">Отзывы</a> <span>|</span> <a href="/pricelist">Прайс-лист</a><span>|</span> <a href="http://zooelectronic.com.ua/sitemap.html">Sitemap</a> <span>|</span>
+        </div><span class="hide-txt" id="pattern">0 грн.</span>
+        <div class="tmpl-pop-cart tmpl-src" data-src="/json/module/external.popup-cart"></div>
+        <div class="tmpl-pop-login tmpl-src" data-src="/json/module/external.popup-login"></div>
+        <div class="tmpl-pop-remind tmpl-src" data-src="/json/module/external.popup-remind"></div>
+        <div class="tmpl-pop-inform tmpl-src" data-src="/json/module/external.popup-inform"></div>
+        <div class="tmpl-pop-markdown tmpl-src" data-src="/json/module/external.popup-markdown"></div>
+        <div class="copy">
+          Copyright &copy; 2016 - 2017, <a href="/">ЭЛЕКТРОНИКА ДЛЯ ЖИВОТНЫХ</a>
+        </div>
+      </div>
+      <div class="clr"></div>
+      <div class="f-counts"></div>
+    </div>
+  </footer>
+</body>
+</html>
